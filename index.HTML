@@ -1,0 +1,77 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+    <title>Books Table</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h2>BOOKS TABLE</h2>
+
+    <table>
+
+        <tr>
+            <th>Product Code</th>
+            <th>Book Name</th>
+            <th>Price</th>
+            <th>Purchase</th>
+            <th>Quantity</th>
+        </tr>
+
+        <tr>
+            <td>601</td>
+            <td>Biography Of Prem Chand</td>
+            <td>200</td>
+            <td><input type="checkbox" id="b1" onclick="enableQty('q1',this)"></td>
+            <td><input type="number" id="q1" disabled></td>
+        </tr>
+
+        <tr>
+            <td>602</td>
+            <td>Harry Potter</td>
+            <td>1800</td>
+            <td><input type="checkbox" id="b2" onclick="enableQty('q2',this)"></td>
+            <td><input type="number" id="q2" disabled></td>
+        </tr>
+
+        <tr>
+            <td>603</td>
+            <td>Discovery Of India</td>
+            <td>650</td>
+            <td><input type="checkbox" id="b3" onclick="enableQty('q3',this)"></td>
+            <td><input type="number" id="q3" disabled></td>
+        </tr>
+
+        <tr>
+            <td>604</td>
+            <td>Alif Laila Story</td>
+            <td>250</td>
+            <td><input type="checkbox" id="b4" onclick="enableQty('q4',this)"></td>
+            <td><input type="number" id="q4" disabled></td>
+        </tr>
+
+        <tr>
+            <td>605</td>
+            <td>Amitabh Bachchan</td>
+            <td>500</td>
+            <td><input type="checkbox" id="b5" onclick="enableQty('q5',this)"></td>
+            <td><input type="number" id="q5" disabled></td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <button onclick="bill()">Show Bill</button>
+
+    <button onclick="resetPage()">clear</button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

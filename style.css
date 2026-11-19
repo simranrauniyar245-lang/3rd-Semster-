@@ -1,0 +1,46 @@
+body{
+    font-family: Arial;
+    text-align: center;
+    background-color: lightblue;
+}
+
+h2{
+    color: darkblue;
+}
+
+table{
+    width: 70%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th{
+    background-color: green;
+    color: white;
+}
+
+button{
+    padding: 10px 20px;
+    margin: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="number"]{
+    width: 60px;
+    text-align: center;
+    appearance: textfield;
+    -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
